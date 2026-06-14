@@ -1,0 +1,561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455b5b70bfc416d46975d37c8d11b58b, type: 3}
+  m_Name: ADCardSO
+  m_EditorClassIdentifier: Assembly-CSharp::ADCardSO
+  items:
+  - name: "\uC5EC\uB860\uD615\uC131"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 1
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-2
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 2
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-3
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 3
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-4
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 4
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-5
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 5
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-6
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 6
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-7
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 7
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-8
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 8
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-9
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 9
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-11 (R)
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 10
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-12 (R)
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 12
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 0}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-13 (R)
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 13
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-14 (R)
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 14
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: Attack-15 (R)
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 15
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: "\uC9C4\uC9C0\uAD6C\uCD95"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 16
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: "\uBCD1\uC0AC \uD6C8\uB828"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 17
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: "\uC0AC\uAE30\uC99D\uC9C4"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 18
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: "\uAC11\uC637 \uC218\uB9AC"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 19
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: "\uC5F0\uB9C9\uD0C4"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 20
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: 8819879657687422407, guid: 3b33980b3a18a664783aad94d418bc3a, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 0
+  - name: "\uACF5\uACA91"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 21
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA92"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 22
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA93"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 23
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA94"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 24
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA95"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 25
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA96"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 26
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA97"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 27
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA98"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 28
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA99"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 29
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uACF5\uACA910"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 30
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uAC15\uACF5\uACA911(R)"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 31
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uAC15\uACF5\uACA912(R)"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 32
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uAC15\uACF5\uACA913(R)"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 33
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uAC15\uACF5\uACA914(R)"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 34
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uAC15\uACF5\uACA915(R)"
+    ADname: "\uACF5\uACA9\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 35
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uBC29\uC5B41"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 36
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uBC29\uC5B42"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 37
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uBC29\uC5B43"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 38
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uBC29\uC5B44"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 39
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1
+  - name: "\uBC29\uC5B45"
+    ADname: "\uBC29\uC5B4\uCE74\uB4DC"
+    CardExplane: "\uB3D9\uD574\uBB3C\uACFC \uBC31\uB450\uC0B0\uC774 \uB9C8\uB974\uACE0 
+      \uB2F3\uB3C4\uB85D \uD558\uB290\uB2D8\uC774 \uBCF4\uC6B0\uD558\uC0AC \uC6B0\uB9AC\uB098\uB77C
+      \uB9CC\uC138 \uBB34\uAD81\uD654 \uC0BC\uCC9C\uB9AC \uD654\uB824\uAC15\uC0B0
+      \uB300\uD55C\uC0AC\uB78C \uB300\uD55C\uC73C\uB85C \uAE38\uC774 \uBCF4\uC804\uD558\uC138"
+    CardNum: 40
+    attack: 0
+    defence: 0
+    cardFront: {fileID: 3035297122333693690, guid: ba95100b3c8424646b2d892711ae9b99, type: 3}
+    CountrySprite: {fileID: -4984691630741248572, guid: c087c9691860e7c47bf5a698b60cbf3c, type: 3}
+    character: {fileID: 0}
+    percent: 5
+    faction: 1

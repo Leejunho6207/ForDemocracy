@@ -1,0 +1,4 @@
+repository "Democracy2D/Democracy2D@14568938981367@cloud"
+  path "/"
+    br "/main"
+    co "/main"

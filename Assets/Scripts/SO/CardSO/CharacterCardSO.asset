@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0b1a5d54257924bbe9e7afd1a8c2d1, type: 3}
+  m_Name: CharacterCardSO
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterCardSO
+  items:
+  - name: "\uB098"
+    attack: 0
+    health: 10000
+    sprite: {fileID: 0}
+  - name: "\uC0C1\uB300"
+    attack: 0
+    health: 10000
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
+  - name: "\uC774\uC218"
+    attack: 0
+    health: 0
+    sprite: {fileID: 0}
